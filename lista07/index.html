@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de clientes</h1>
+    <p style="color: brown;">Todos os campos são de preenchimento obrigatório</p>
+
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" placeholder="Nome Completo" required>
+            <br>
+            <br>
+            <label for="data">Data de nascimento:</label>
+            <br>
+            <input type="date" id="data" required>
+            <br>
+            <br>
+            <label for="">Sexo:</label>
+            <br>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino" required>
+            <label for="feminino">Feminino</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informações de contato</legend>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <label for="telefone">Telefone celular:</label>
+            <br>
+            <input type="tel" id="telefone" placeholder="Apenas números (máx.9)" pattern="[0-9]{9}" required>
+            <br>
+            <br>
+            <label for="site">Website pessoal/profissional:</label>
+            <br>
+            <input type="text" id="site" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Localização</legend>
+            <label for="endereco">Endereço:</label>
+            <br>
+            <input type="text" id="endereco" required>
+            <br>
+            <br>
+            <label for="numero">Número:</label>
+            <br>
+            <input type="text" id="numero" placeholder="(Valor entre 1 e 9999)" pattern="[1-9999]" required>
+            <br>
+            <br>
+            <label for="cidade">Cidade:</label>
+            <br>
+            <input type="text" id="cidade" required>
+            <br>
+            <br>
+            <label for="estado">Estado:</label>
+            <br>
+            <select name="estado" id="estado" required>
+                <option value="">Selecione</option>
+                <option value="acre">Acre</option>
+                <option value="alagoas">Alagoas</option>
+                <option value="amapa">Amapá</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="bahia">Bahia</option>
+                <option value="ceara">Ceará</option>
+                <option value="distrito">Distrito Federal</option>
+                <option value="espirito">Espírito Santo</option>
+                <option value="goias">Goiás</option>
+                <option value="maranhao">Maranhão</option>
+                <option value="matogrosso">Mato Grosso</option>
+                <option value="matosul">Mato Grosso do Sul</option>
+                <option value="minas">Minas Gerais</option>
+                <option value="para">Pará</option>
+                <option value="paraiba">Paraíba</option>
+                <option value="parana">Paraná</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="piaui">Piauí</option>
+                <option value="rio">Rio de Janeiro</option>
+                <option value="rionorte">Rio Grande do Norte</option>
+                <option value="riosul">Rio Grande do Sul</option>
+                <option value="rondonia">Rondônia</option>
+                <option value="roraima">Roraima</option>
+                <option value="santacatarina">Santa Catarina</option>
+                <option value="saopaulo">São Paulo</option>
+                <option value="sergipe">Sergipe</option>
+                <option value="tocantins">Tocantins</option>
+            </select>
+        </fieldset>
+        <br>
+        <button type="submit" value="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+        
+
+
+    
+    </form>
+    
+</body>
+</html>
