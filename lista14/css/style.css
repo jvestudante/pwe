@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+}
+.title {
+    color: white;
+    text-align: right;
+    padding: 15px;
+}
+.sub {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    text-align: right;
+    padding: 10px 15px 10px 10px;
+    font-weight: bold;
+}
+ul.menu {
+    background-color: #7B7BFA;
+    text-align: center;
+}
+li.menu{
+    display: inline-block;
+}
+a.menu{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+}
+a.menu:link, a.menu:visited {
+    color: white;
+}
+a.menu:hover{
+    text-decoration: underline;
+}
+.letter:hover{
+    letter-spacing: 8px;
+    transition: 0.4s ease-in;
+}
+.letter:not(:hover){
+    transition: 0.3s ease-in;
+}
+.corpo{
+    background-color: white;
+    margin: 0px auto;
+    width: 1200px;
+    padding: 30px;
+    text-align: justify;
+}
+.texto{
+    padding-bottom: 20px;
+}
+ul.listagem {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.img {
+    text-align: center;
+    padding-bottom: 20px;
+}
+img {
+    width: 450px;
+}
+.ancora:visited, .ancora:link {
+    color: blue;
+}
+footer{
+    background-color: rgb(128, 128, 128);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+span {
+    text-decoration: underline;
+    color: #98AFB7;
+}
+
