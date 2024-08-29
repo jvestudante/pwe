@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    text-align: right;
+    background-color: black;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    width: 135px;
+    text-align: center;
+}
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.html:hover{
+    background-image: url("../img/html5.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.css:hover {
+    background-image: url("../img/css3.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.script:hover {
+    background-image: url("../img/javascript.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+section{
+    text-align: center;
+}
+p, h1{
+    margin: 20px 0px 20px 0px;
+}
+.destaque {
+    color: red;
+    font-weight: bold;
+    margin-top: none;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.container img{
+    width: 400px;
+    margin-top: 20px;
+}
+.container p{
+    text-align: justify;
+}
+.info{
+    background-color: lightgray;
+}
+.info .container > div img {
+    width: 50px;
+}
+.info .container > div p {
+    text-align: center;
+}
+.info .container > div{
+    margin: 0px 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+footer p{
+    color: white;
+}
